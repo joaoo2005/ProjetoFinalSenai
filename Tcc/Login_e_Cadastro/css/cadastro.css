@@ -1,0 +1,90 @@
+body {
+    background-color: #1B1F27;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.area-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181920;
+    border-radius: 30px;
+    width: 360px;
+    height: 430px;
+    padding: 35px; 
+}
+
+.cadastro form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cadastro input {
+    margin-top: 10px;
+    background-color: #252A34;
+    color: #CBD0F7;
+    padding-left: 15px;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 15px;
+}
+
+.cadastro img {
+    width: 80px;
+    height: auto; 
+    border-radius: 55px;
+}
+
+input::placeholder {
+    color: #CBD0F7;
+    font-size: 12px;
+}
+
+form [type="submit"] {
+    display: block;
+    background-color: #E60084;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p {
+    color: #CBD0F7;
+}
+
+a {
+    color: #E60084;
+    text-decoration: none;
+    margin-left: 1px;
+}
+
+.checkbox-container {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  #agreement-label {
+    color: #CBD0F7;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  

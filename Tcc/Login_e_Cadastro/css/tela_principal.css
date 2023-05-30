@@ -1,0 +1,52 @@
+body {
+    background-color: #1B1F27;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.tela form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: flex;
+    padding: 28px 12%;
+}
+
+.tela input {
+    background-color: #252A34;
+    color: #CBD0F7;
+    border: none;
+    height: 50px;
+    outline: none;
+    border-radius: 55px;
+    margin-right: 20px;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.tela img {
+    width: 50px; /* ajuste o tamanho da imagem conforme desejado */
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    border-radius: 55px;
+}
+
+form [type="submit"] {
+    display: flex;
+    background-color: #E60084;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Menu {
+    justify-items: center;
+    align-items: center;
+}
+
